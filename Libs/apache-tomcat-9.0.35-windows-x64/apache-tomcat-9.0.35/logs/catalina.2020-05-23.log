@@ -1,0 +1,754 @@
+23-May-2020 08:24:27.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 08:24:27.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 08:24:27.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-May-2020 08:24:27.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-May-2020 08:24:27.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-33SEF19
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23-May-2020 08:24:27.602 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-May-2020 08:24:27.630 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+23-May-2020 08:24:28.114 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-May-2020 08:24:28.646 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,399] milliseconds
+23-May-2020 08:24:28.709 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2020 08:24:28.709 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+23-May-2020 08:24:28.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+23-May-2020 08:24:28.756 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/A] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has been ignored
+23-May-2020 08:24:28.802 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6ca18a14]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4800)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\iOllio\Documents\NetBeansProjects\A\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:751)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+23-May-2020 08:24:28.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has finished in [125] ms
+23-May-2020 08:24:28.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+23-May-2020 08:24:28.849 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+23-May-2020 08:24:29.604 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
+23-May-2020 08:24:29.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [798] ms
+23-May-2020 08:24:29.647 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+23-May-2020 08:24:29.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs] has finished in [62] ms
+23-May-2020 08:24:29.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+23-May-2020 08:24:30.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples] has finished in [851] ms
+23-May-2020 08:24:30.560 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+23-May-2020 08:24:30.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager] has finished in [72] ms
+23-May-2020 08:24:30.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+23-May-2020 08:24:30.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager] has finished in [63] ms
+23-May-2020 08:24:30.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+23-May-2020 08:24:30.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT] has finished in [47] ms
+23-May-2020 08:24:30.757 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-May-2020 08:24:30.757 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,123] milliseconds
+23-May-2020 08:24:33.791 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:24:33.911 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:25:59.210 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:25:59.270 SEVERE [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/web]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/web]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3761)
+		at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1124)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:365)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:830)
+	Caused by: java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    LoginValidate.processRequest(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V @94: aload
+  Reason:
+    Type top (current frame, locals[7]) is not assignable to reference type
+  Current Frame:
+    bci: @94
+    flags: { }
+    locals: { 'LoginValidate', 'javax/servlet/http/HttpServletRequest', 'javax/servlet/http/HttpServletResponse', 'java/io/PrintWriter', 'java/lang/String', 'java/lang/String', 'java/lang/String' }
+    stack: { 'javax/servlet/http/HttpServletRequest', 'java/lang/String' }
+  Bytecode:
+    0000000: 2c12 07b9 0009 0200 2cb9 000f 0100 4e2b
+    0000010: 1213 b900 1502 003a 042b 121b b900 1502
+    0000020: 003a 0512 1d3a 0619 0412 1fb6 0021 9900
+    0000030: 1819 0512 27b6 0021 9900 0e12 293a 0712
+    0000040: 2b3a 06a7 0009 2d12 2db6 002f 2b19 06b9
+    0000050: 0034 0200 2b2c b900 3803 002b 123e 1907
+    0000060: b900 4003 002d c600 232d b600 44a7 001c
+    0000070: 3a04 2dc6 0013 2db6 0044 a700 0c3a 0519
+    0000080: 0419 05b6 0049 1904 bfb1               
+  Exception Handler Table:
+    bci [15, 101] => handler: 112
+    bci [118, 122] => handler: 125
+  Stackmap Table:
+    full_frame(@70,{Object[#78],Object[#22],Object[#10],Object[#48],Object[#34],Object[#34],Object[#34]},{})
+    same_frame(@76)
+    full_frame(@112,{Object[#78],Object[#22],Object[#10],Object[#48]},{Object[#71]})
+    full_frame(@125,{Object[#78],Object[#22],Object[#10],Object[#48],Object[#71]},{Object[#71]})
+    same_frame(@134)
+    chop_frame(@137,2)
+
+		at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+		at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3062)
+		at java.base/java.lang.Class.getDeclaredFields(Class.java:2249)
+		at org.apache.catalina.util.Introspection.getDeclaredFields(Introspection.java:110)
+		at org.apache.catalina.startup.WebAnnotationSet.loadFieldsAnnotation(WebAnnotationSet.java:269)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationServletAnnotations(WebAnnotationSet.java:137)
+		at org.apache.catalina.startup.WebAnnotationSet.loadApplicationAnnotations(WebAnnotationSet.java:69)
+		at org.apache.catalina.startup.ContextConfig.applicationAnnotationsConfig(ContextConfig.java:330)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:777)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5052)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 29 more
+23-May-2020 08:25:59.290 INFO [http-nio-8080-exec-18] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:26:43.225 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web]
+23-May-2020 08:26:43.289 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+23-May-2020 08:26:43.289 WARNING [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+23-May-2020 08:26:43.341 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [56] ms
+23-May-2020 08:26:43.349 INFO [http-nio-8080-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/web]] after start() had already been called. The second call will be ignored.
+23-May-2020 08:27:29.699 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web]
+23-May-2020 08:27:29.759 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+23-May-2020 08:27:29.759 WARNING [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+23-May-2020 08:27:29.827 INFO [http-nio-8080-exec-26] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [68] ms
+23-May-2020 08:27:29.831 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/web]] after start() had already been called. The second call will be ignored.
+23-May-2020 08:27:32.244 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:27:32.300 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:27:49.175 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:27:49.263 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:27:53.678 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:27:53.739 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:28:39.711 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:28:39.774 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:29:02.773 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:29:02.820 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:29:12.097 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:29:12.144 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:31:15.262 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:31:15.650 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:31:15.658 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:31:17.782 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+23-May-2020 08:31:17.985 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:31:17.985 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+23-May-2020 08:44:27.760 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml]
+23-May-2020 08:44:27.760 WARNING [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/lab2_cau2_login_database_MyConnect] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has been ignored
+23-May-2020 08:44:27.760 WARNING [http-nio-8080-exec-49] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+23-May-2020 08:44:28.025 INFO [http-nio-8080-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:44:28.025 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has finished in [265] ms
+23-May-2020 08:44:28.025 INFO [http-nio-8080-exec-48] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/lab2_cau2_login_database_MyConnect]] after start() had already been called. The second call will be ignored.
+23-May-2020 08:45:28.405 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:45:28.421 WARNING [http-nio-8080-exec-52] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [lab2_cau2_login_database_MyConnect] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2020 08:45:28.796 INFO [http-nio-8080-exec-52] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:45:28.812 INFO [http-nio-8080-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:45:30.046 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:45:30.265 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:45:30.265 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:45:34.154 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:45:34.295 INFO [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:45:34.295 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:46:43.094 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:46:43.250 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:46:43.265 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:46:43.484 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:46:43.609 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:46:43.609 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:47:27.446 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:47:27.602 INFO [http-nio-8080-exec-62] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:47:27.618 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:47:27.868 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:47:27.977 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:47:27.977 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:49:59.872 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:50:00.014 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:50:00.044 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:50:15.127 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:50:15.283 INFO [http-nio-8080-exec-62] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:50:15.283 INFO [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:50:42.581 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:50:42.737 INFO [http-nio-8080-exec-61] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:50:42.737 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:50:43.034 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:50:43.159 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:50:43.159 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:51:08.624 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:51:08.765 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:51:08.765 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:51:31.500 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:51:31.593 INFO [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:51:31.609 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:52:40.235 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:52:40.345 INFO [http-nio-8080-exec-61] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:52:40.345 INFO [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:52:40.782 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:52:40.907 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:52:40.907 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:55:39.736 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:55:39.861 INFO [http-nio-8080-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:55:39.861 INFO [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:57:41.626 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:57:41.736 INFO [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:57:41.736 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:58:13.834 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:58:13.975 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:58:13.975 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 08:58:50.330 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 08:58:50.455 INFO [http-nio-8080-exec-76] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 08:58:50.455 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:00:27.218 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:00:27.327 INFO [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:00:27.343 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:00:31.578 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:00:31.719 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:00:31.735 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:00:53.448 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:00:53.558 INFO [http-nio-8080-exec-53] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:00:53.558 INFO [http-nio-8080-exec-53] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:01:02.060 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:01:02.170 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:01:02.185 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:01:22.560 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:01:22.731 INFO [http-nio-8080-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:01:22.731 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:01:55.125 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:01:55.250 INFO [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:01:55.266 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:02:23.247 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:02:23.388 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:02:23.388 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:02:31.875 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:02:32.000 INFO [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:02:32.000 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:03:09.745 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:03:09.885 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:03:09.885 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:03:25.062 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:03:25.187 INFO [http-nio-8080-exec-86] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:03:25.204 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:03:36.154 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:03:36.310 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:03:36.325 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:03:45.735 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:03:45.891 INFO [http-nio-8080-exec-87] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:03:45.906 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:04:09.200 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:04:09.309 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:04:09.309 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:04:16.327 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:04:16.468 INFO [http-nio-8080-exec-88] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:04:16.468 INFO [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:04:18.672 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:04:18.781 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:04:18.781 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:06:32.094 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:06:32.234 INFO [http-nio-8080-exec-87] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:06:32.234 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:06:32.547 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:06:32.656 INFO [http-nio-8080-exec-100] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:06:32.656 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:07:12.454 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:07:12.579 INFO [http-nio-8080-exec-101] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:07:12.595 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:07:17.480 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:07:17.605 INFO [http-nio-8080-exec-98] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:07:17.605 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:07:31.063 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:07:31.188 INFO [http-nio-8080-exec-97] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:07:31.203 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:07:46.467 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:07:46.577 INFO [http-nio-8080-exec-102] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:07:46.592 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:07:51.891 INFO [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:07:52.031 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:07:52.031 INFO [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:08:38.312 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:08:38.422 INFO [http-nio-8080-exec-102] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:08:38.422 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:09:46.233 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:09:46.765 INFO [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:09:55.080 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:09:55.080 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:09:55.220 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:09:55.220 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:10:12.718 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:10:14.328 INFO [http-nio-8080-exec-108] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:10:15.250 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:10:15.250 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:10:15.376 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:10:15.376 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:10:23.061 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:10:25.406 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:10:25.406 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:10:25.530 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:10:25.530 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:12:11.000 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:12:11.109 INFO [http-nio-8080-exec-108] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:12:11.109 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:12:20.080 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:12:20.185 INFO [http-nio-8080-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:12:20.185 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:13:27.594 INFO [http-nio-8080-exec-116] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:13:27.751 INFO [http-nio-8080-exec-116] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:13:27.751 INFO [http-nio-8080-exec-116] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:13:39.530 INFO [http-nio-8080-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:13:39.655 INFO [http-nio-8080-exec-117] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:13:39.655 INFO [http-nio-8080-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:13:44.403 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:13:44.575 INFO [http-nio-8080-exec-114] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:13:44.591 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:13:54.855 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:13:54.980 INFO [http-nio-8080-exec-102] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:13:54.980 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:13:56.260 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:13:56.416 INFO [http-nio-8080-exec-99] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:13:56.416 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:14:23.442 INFO [http-nio-8080-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:14:23.574 INFO [http-nio-8080-exec-121] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:14:23.578 INFO [http-nio-8080-exec-121] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:17:52.577 INFO [http-nio-8080-exec-121] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:17:52.608 INFO [http-nio-8080-exec-118] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml]
+23-May-2020 09:17:52.608 WARNING [http-nio-8080-exec-118] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/lab2_cau2_login_database_MyConnect] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has been ignored
+23-May-2020 09:17:52.624 WARNING [http-nio-8080-exec-118] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+23-May-2020 09:17:52.749 INFO [http-nio-8080-exec-118] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:17:52.749 INFO [http-nio-8080-exec-118] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has finished in [141] ms
+23-May-2020 09:17:52.749 INFO [http-nio-8080-exec-123] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/lab2_cau2_login_database_MyConnect]] after start() had already been called. The second call will be ignored.
+23-May-2020 09:17:54.343 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2020 09:17:54.343 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:17:54.575 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2020 09:17:54.591 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:17:54.591 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:17:57.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-33SEF19
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+23-May-2020 09:17:57.919 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+23-May-2020 09:17:57.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23-May-2020 09:17:57.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-May-2020 09:17:57.950 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+23-May-2020 09:17:58.341 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:17:58.857 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,301] milliseconds
+23-May-2020 09:17:58.919 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2020 09:17:58.919 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+23-May-2020 09:17:58.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+23-May-2020 09:17:58.966 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/A] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has been ignored
+23-May-2020 09:17:59.013 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3d9f6567]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4800)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\iOllio\Documents\NetBeansProjects\A\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:751)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+23-May-2020 09:17:59.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has finished in [141] ms
+23-May-2020 09:17:59.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml]
+23-May-2020 09:17:59.076 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/lab2_cau2_login_database_MyConnect] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has been ignored
+23-May-2020 09:17:59.076 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+23-May-2020 09:17:59.717 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:17:59.982 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+23-May-2020 09:17:59.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has finished in [922] ms
+23-May-2020 09:17:59.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+23-May-2020 09:17:59.998 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+23-May-2020 09:18:00.295 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:18:00.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [313] ms
+23-May-2020 09:18:00.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+23-May-2020 09:18:00.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs] has finished in [46] ms
+23-May-2020 09:18:00.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+23-May-2020 09:18:01.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples] has finished in [735] ms
+23-May-2020 09:18:01.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+23-May-2020 09:18:01.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager] has finished in [47] ms
+23-May-2020 09:18:01.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+23-May-2020 09:18:01.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager] has finished in [62] ms
+23-May-2020 09:18:01.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+23-May-2020 09:18:01.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT] has finished in [32] ms
+23-May-2020 09:18:01.233 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:18:01.248 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,388] milliseconds
+23-May-2020 09:18:02.700 INFO [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+23-May-2020 09:18:03.656 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:18:03.692 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml]
+23-May-2020 09:18:03.696 WARNING [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/lab2_cau2_login_database_MyConnect] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has been ignored
+23-May-2020 09:18:03.704 WARNING [http-nio-8080-exec-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+23-May-2020 09:18:03.896 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:18:03.904 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has finished in [212] ms
+23-May-2020 09:18:03.912 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/lab2_cau2_login_database_MyConnect]] after start() had already been called. The second call will be ignored.
+23-May-2020 09:34:52.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+23-May-2020 09:34:52.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+23-May-2020 09:34:52.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+23-May-2020 09:34:52.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:34:52.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-33SEF19
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+23-May-2020 09:34:52.839 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23-May-2020 09:34:52.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-May-2020 09:34:52.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+23-May-2020 09:34:53.387 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:34:54.012 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,530] milliseconds
+23-May-2020 09:34:54.090 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-May-2020 09:34:54.090 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+23-May-2020 09:34:54.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+23-May-2020 09:34:54.152 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/A] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has been ignored
+23-May-2020 09:34:54.215 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@205d38da]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4800)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\iOllio\Documents\NetBeansProjects\A\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:751)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:708)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+23-May-2020 09:34:54.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\A.xml] has finished in [141] ms
+23-May-2020 09:34:54.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml]
+23-May-2020 09:34:54.246 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/lab2_cau2_login_database_MyConnect] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has been ignored
+23-May-2020 09:34:54.246 WARNING [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+23-May-2020 09:34:55.168 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:34:55.465 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [250] milliseconds.
+23-May-2020 09:34:55.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\lab2_cau2_login_database_MyConnect.xml] has finished in [1,251] ms
+23-May-2020 09:34:55.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+23-May-2020 09:34:55.512 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+23-May-2020 09:34:55.872 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:34:55.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [375] ms
+23-May-2020 09:34:55.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+23-May-2020 09:34:55.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs] has finished in [47] ms
+23-May-2020 09:34:55.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+23-May-2020 09:34:56.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples] has finished in [984] ms
+23-May-2020 09:34:56.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+23-May-2020 09:34:56.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager] has finished in [47] ms
+23-May-2020 09:34:56.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+23-May-2020 09:34:57.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager] has finished in [62] ms
+23-May-2020 09:34:57.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+23-May-2020 09:34:57.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT] has finished in [47] ms
+23-May-2020 09:34:57.075 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:34:57.091 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3,088] milliseconds
+23-May-2020 09:37:25.811 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:37:25.837 WARNING [http-nio-8080-exec-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [lab2_cau2_login_database_MyConnect] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2020 09:37:26.075 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:37:26.089 INFO [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:38:27.092 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:38:27.217 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:38:27.233 INFO [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:14.499 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:14.655 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:14.671 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:27.784 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:27.925 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:27.925 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:31.547 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:31.703 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:31.703 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:36.001 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:36.129 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:36.134 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:39.726 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:39.851 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:39.867 INFO [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:56.213 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:56.228 WARNING [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [lab2_cau2_login_database_MyConnect] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2020 09:39:56.369 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:56.369 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:39:58.879 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:39:59.008 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:39:59.014 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:41:36.075 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:41:36.081 WARNING [http-nio-8080-exec-26] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [lab2_cau2_login_database_MyConnect] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2020 09:41:36.209 INFO [http-nio-8080-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:41:36.214 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:41:46.255 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:41:46.380 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:41:46.396 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:42:01.741 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:42:01.882 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:42:01.882 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:42:14.160 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:42:14.301 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:42:14.301 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:42:35.288 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:42:35.423 INFO [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:42:35.427 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:43:04.704 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:43:04.853 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:43:04.858 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:43:22.525 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:43:22.650 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:43:22.666 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:43:29.810 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:43:29.945 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:43:29.950 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:43:53.680 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:43:53.818 INFO [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:43:53.823 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:44:03.992 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:44:04.117 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:44:04.117 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:44:18.077 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:44:18.192 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:44:18.199 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:44:59.635 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:44:59.760 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:44:59.760 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:16.811 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:16.952 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:16.952 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:17.233 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:17.343 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:17.343 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:25.244 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:25.358 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:25.358 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:25.608 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:25.719 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:25.734 INFO [http-nio-8080-exec-40] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:30.370 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:30.497 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:30.502 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:30.720 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:30.825 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:30.831 INFO [http-nio-8080-exec-44] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:36.624 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:36.725 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:36.729 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:43.568 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:43.677 INFO [http-nio-8080-exec-47] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:43.677 INFO [http-nio-8080-exec-47] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:54.589 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:54.701 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:54.707 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:47:58.139 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:47:58.249 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:47:58.265 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:48:28.967 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:48:29.076 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:48:29.076 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:49:27.346 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:49:27.471 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:49:27.487 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:49:32.660 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:49:32.786 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:49:32.786 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:49:40.885 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:49:40.994 INFO [http-nio-8080-exec-27] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:49:40.994 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:51:12.551 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:51:12.661 INFO [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:51:12.661 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:51:27.151 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:51:27.287 INFO [http-nio-8080-exec-51] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:51:27.291 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:52:16.420 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:52:16.420 WARNING [http-nio-8080-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [lab2_cau2_login_database_MyConnect] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-May-2020 09:52:16.530 INFO [http-nio-8080-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:52:16.530 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:52:17.849 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] has started
+23-May-2020 09:52:17.958 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-May-2020 09:52:17.958 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/lab2_cau2_login_database_MyConnect] is completed
+23-May-2020 09:53:05.945 INFO [http-nio-8080-exec-60] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/lab2_cau2_login_database_MyConnect]
+23-May-2020 09:53:12.562 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-May-2020 09:53:12.562 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:53:12.779 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-May-2020 09:53:12.779 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-May-2020 09:53:12.795 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

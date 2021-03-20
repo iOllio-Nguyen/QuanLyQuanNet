@@ -1,0 +1,243 @@
+21-May-2020 07:59:23.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 07:59:23.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 07:59:23.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2020 07:59:23.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2020 07:59:23.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2020 07:59:23.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+21-May-2020 07:59:23.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-33SEF19
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21-May-2020 07:59:23.872 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2020 07:59:23.924 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+21-May-2020 07:59:24.748 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2020 07:59:25.984 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,764] milliseconds
+21-May-2020 07:59:26.160 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2020 07:59:26.164 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+21-May-2020 07:59:26.192 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+21-May-2020 07:59:26.252 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+21-May-2020 07:59:27.225 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [344] milliseconds.
+21-May-2020 07:59:27.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [1,097] ms
+21-May-2020 07:59:27.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+21-May-2020 07:59:27.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs] has finished in [92] ms
+21-May-2020 07:59:27.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+21-May-2020 07:59:28.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples] has finished in [1,348] ms
+21-May-2020 07:59:28.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+21-May-2020 07:59:28.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager] has finished in [116] ms
+21-May-2020 07:59:28.853 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+21-May-2020 07:59:28.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager] has finished in [100] ms
+21-May-2020 07:59:28.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+21-May-2020 07:59:29.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT] has finished in [80] ms
+21-May-2020 07:59:29.045 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2020 07:59:29.069 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3,086] milliseconds
+21-May-2020 08:03:09.526 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/web]
+21-May-2020 08:03:09.526 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:03:09.679 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:18:29.439 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:18:29.549 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:21:18.477 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:21:18.649 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:21:20.227 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:21:20.321 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:22:52.491 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:22:52.600 INFO [http-nio-8080-exec-26] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:23:06.307 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:23:06.401 INFO [http-nio-8080-exec-29] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:23:32.206 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:23:32.300 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:24:13.655 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:24:13.749 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:24:22.689 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:24:22.768 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:25:58.518 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:25:58.628 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:25:58.909 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:25:59.018 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:25:59.315 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:25:59.425 INFO [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:28:54.448 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:28:54.510 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:29:00.340 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:29:00.418 INFO [http-nio-8080-exec-46] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:29:01.669 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:29:01.762 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:29:35.803 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:29:35.897 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:29:48.370 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:29:48.448 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:29:57.263 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:29:57.372 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:30:22.969 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:30:23.048 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:30:32.441 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:30:32.519 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:30:39.646 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:30:39.724 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:31:04.978 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:31:05.056 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:31:35.331 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:31:35.409 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:32:04.433 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:32:04.511 INFO [http-nio-8080-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:32:08.481 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:32:08.543 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:32:31.149 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:32:31.243 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:39:21.618 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:39:21.712 INFO [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:39:26.807 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:39:26.901 INFO [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:40:10.273 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:40:10.367 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:40:12.539 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:40:12.680 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:40:39.875 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:40:39.969 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:40:41.610 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:40:41.704 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:40:56.880 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:40:56.974 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:41:01.589 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/web]
+21-May-2020 08:41:01.651 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+21-May-2020 08:41:01.651 WARNING [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+21-May-2020 08:41:01.729 INFO [http-nio-8080-exec-77] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [78] ms
+21-May-2020 08:41:01.729 INFO [http-nio-8080-exec-67] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/web]] after start() had already been called. The second call will be ignored.
+21-May-2020 08:41:59.122 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:41:59.248 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:42:20.347 INFO [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:42:20.426 INFO [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 08:42:36.041 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 08:42:36.119 INFO [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:01:54.060 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:01:54.170 INFO [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:01:55.436 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:01:55.530 INFO [http-nio-8080-exec-97] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:03:21.417 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:03:21.510 INFO [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:03:34.108 INFO [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:03:34.217 INFO [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:04:07.680 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:04:07.774 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:07:32.074 INFO [http-nio-8080-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:07:32.167 INFO [http-nio-8080-exec-111] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:07:36.622 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:07:36.716 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:07:58.727 INFO [http-nio-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:07:58.821 INFO [http-nio-8080-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:08:02.789 INFO [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:08:02.867 INFO [http-nio-8080-exec-96] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:08:17.272 INFO [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:08:17.350 INFO [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:08:58.203 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:08:58.281 INFO [http-nio-8080-exec-109] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:09:11.722 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:09:11.816 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:09:15.895 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:09:15.973 INFO [http-nio-8080-exec-119] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:09:21.679 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:09:21.772 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:09:24.086 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:09:24.164 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:16:14.038 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:16:14.131 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:16:20.633 INFO [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:16:20.712 INFO [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:16:27.182 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:16:27.292 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:16:37.467 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:16:37.561 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:16:44.396 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:16:44.474 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:17:28.706 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:17:28.784 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:17:32.817 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:17:32.910 INFO [http-nio-8080-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:17:44.383 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:17:44.477 INFO [http-nio-8080-exec-130] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:17:50.603 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:17:50.681 INFO [http-nio-8080-exec-131] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:19:32.354 INFO [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:19:32.450 INFO [http-nio-8080-exec-151] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:20:26.363 INFO [http-nio-8080-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:20:26.455 INFO [http-nio-8080-exec-150] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:20:59.351 INFO [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:20:59.439 INFO [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:21:04.572 INFO [http-nio-8080-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:21:04.648 INFO [http-nio-8080-exec-158] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:38:18.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.35
+21-May-2020 09:38:18.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+21-May-2020 09:38:18.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-13.0.2
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 09:38:18.829 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 09:38:18.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2020 09:38:18.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2020 09:38:18.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-33SEF19
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+21-May-2020 09:38:18.861 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2020 09:38:18.892 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+21-May-2020 09:38:19.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-May-2020 09:38:19.781 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,351] milliseconds
+21-May-2020 09:38:20.018 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2020 09:38:20.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+21-May-2020 09:38:20.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml]
+21-May-2020 09:38:20.054 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web] in deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has been ignored
+21-May-2020 09:38:20.638 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [200] milliseconds.
+21-May-2020 09:38:20.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\Catalina\localhost\web.xml] has finished in [672] ms
+21-May-2020 09:38:20.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+21-May-2020 09:38:20.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs] has finished in [56] ms
+21-May-2020 09:38:20.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+21-May-2020 09:38:21.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples] has finished in [827] ms
+21-May-2020 09:38:21.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+21-May-2020 09:38:21.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager] has finished in [68] ms
+21-May-2020 09:38:21.669 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+21-May-2020 09:38:21.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager] has finished in [60] ms
+21-May-2020 09:38:21.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+21-May-2020 09:38:21.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\iOllio\Downloads\Compressed\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT] has finished in [44] ms
+21-May-2020 09:38:21.777 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-May-2020 09:38:21.793 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,011] milliseconds
+21-May-2020 09:40:33.916 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:40:34.019 INFO [http-nio-8080-exec-9] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:40:38.857 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:40:38.951 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:41:50.189 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:41:50.249 INFO [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:59:04.077 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:59:04.145 INFO [http-nio-8080-exec-15] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 09:59:10.831 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] has started
+21-May-2020 09:59:10.879 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/web] is completed
+21-May-2020 10:09:34.153 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-May-2020 10:09:34.153 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-May-2020 10:09:34.356 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-May-2020 10:09:34.387 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-May-2020 10:09:34.387 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
